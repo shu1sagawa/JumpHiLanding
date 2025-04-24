@@ -1,5 +1,4 @@
-import { CheckIcon, TimerIcon, Flame } from "lucide-react";
-import basketballTraining from "../assets/basketball-training.gif";
+import { CheckIcon } from "lucide-react";
 
 export default function AppPreview() {
   const checkItems = [
@@ -28,32 +27,13 @@ export default function AppPreview() {
         
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 order-1 lg:order-1 flex justify-center mb-12 lg:mb-0">
-            <div className="relative">
-              <div className="w-64 md:w-72 rounded-3xl shadow-xl border-8 border-accent/30 h-[450px] bg-gray-800 flex items-center justify-center overflow-hidden">
-                <img 
-                  src={basketballTraining}
-                  alt="Basketball Training Demo" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              
-              <div className="absolute -top-6 -right-6 bg-white p-3 rounded-xl shadow-lg z-10">
-                <div className="flex items-center">
-                  <Flame className="text-red-500 h-5 w-5" />
-                  <div className="ml-3">
-                    <p className="text-dark font-bold text-sm">7-day streak!</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="absolute -bottom-5 -left-5 bg-white p-3 rounded-xl shadow-lg z-10">
-                <div className="flex items-center">
-                  <TimerIcon className="text-primary h-5 w-5" />
-                  <div className="ml-3">
-                    <p className="text-dark font-bold text-sm">35 min workout</p>
-                  </div>
-                </div>
-              </div>
+            <div className="max-w-md">
+              <h3 className="text-2xl font-heading font-bold mb-4 text-white text-center">
+                Train Smarter, Not Harder
+              </h3>
+              <p className="text-gray-300 mb-6 text-center">
+                Access professional-grade basketball training plans designed to improve your skills at any level.
+              </p>
             </div>
           </div>
           
