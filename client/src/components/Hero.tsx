@@ -11,8 +11,8 @@ export default function Hero() {
       <div className="container mx-auto px-4 z-10 relative">
         <div className="flex flex-col items-center">
           <div className="w-full text-center">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-thin italic leading-tight mb-2">
-              <div className="mb-1">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-thin italic leading-none mb-2">
+              <div className="mb-0">
                 <span className="font-bold text-white">Level</span><span>Up</span> <span>Your</span>
               </div>
               <div>
