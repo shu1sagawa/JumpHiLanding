@@ -4,19 +4,25 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Michael T.",
-    role: "High School Player",
-    text: "My vertical jump improved by 4 inches after just 8 weeks on the JumpHi program! The video tutorials make it easy to understand proper form."
+    name: "Ellie Jordan Llamas",
+    role: "Family User",
+    date: "February, 2021",
+    title: "Family Friendly!",
+    text: "Fantastic app that was created for the entire family. Couldn't have asked for a better exercise app that was made with all family members in mind. Whether it's mom or dad that want to get a workout in while the kids are napping or would like your kids to engage in physical activity during their Distance Learning school schedule. I really appreciate the thought process behind this idea... #family"
   },
   {
-    name: "Sarah K.",
-    role: "College Athlete",
-    text: "The shooting analytics have completely changed my game. I can see exactly where I need to improve and the drills help me fix those weaknesses."
+    name: "ChrisMatthews_",
+    role: "Vertical Jump Training",
+    date: "July, 2021",
+    title: "Easily 10/10",
+    text: "At first I wasn't too sure if it would help me on my vertical but I gave it a try and was surprised by the results. They have workout plans and times to remind you to do it so you actually will do your workout. Also the layout on this app is simple and easy to learn. I never do reviews so when I do I really like the app."
   },
   {
-    name: "Jason M.",
-    role: "Recreational Player",
-    text: "As a weekend warrior, this app gives me structured workouts I can do in limited time. My friends have noticed the difference in my game!"
+    name: "skylie willis",
+    role: "Fitness & Conditioning",
+    date: "October, 2024", 
+    title: "perfect 10/10",
+    text: "I downloaded this app to keep up with conditioning and my overall personal fitness and this app allows me to do just that. The workouts and information on this app is super useful and important information to know. I 100% recommend downloading this app!!"
   }
 ];
 
@@ -39,6 +45,7 @@ function TestimonialCard({ testimonial, index }: { testimonial: typeof testimoni
         <div className="ml-4">
           <h3 className="font-heading font-semibold">{testimonial.name}</h3>
           <p className="text-sm text-gray-300">{testimonial.role}</p>
+          <p className="text-xs text-gray-400">{testimonial.date}</p>
         </div>
       </div>
       <div className="flex mb-4">
@@ -46,6 +53,7 @@ function TestimonialCard({ testimonial, index }: { testimonial: typeof testimoni
           <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
         ))}
       </div>
+      <h4 className="font-semibold text-white mb-2">{testimonial.title}</h4>
       <p className="text-gray-200">
         "{testimonial.text}"
       </p>
@@ -67,9 +75,9 @@ export default function Testimonials() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">What Our Players Say</h2>
+          <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">Real User Reviews</h2>
           <p className="text-lg text-gray-200 max-w-2xl mx-auto">
-            Join thousands of players who've transformed their game with JumpHi.
+            See what players, families, and athletes are saying about JumpHi.
           </p>
         </motion.div>
         
