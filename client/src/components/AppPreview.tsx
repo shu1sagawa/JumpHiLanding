@@ -1,4 +1,5 @@
 import { CheckIcon, TimerIcon, Flame } from "lucide-react";
+import appScreenshot from "../assets/images/IMG_5749.jpeg";
 
 export default function AppPreview() {
   const checkItems = [
@@ -55,7 +56,7 @@ export default function AppPreview() {
             <div className="relative">
               <div className="w-64 md:w-72 rounded-3xl shadow-xl border-8 border-accent/30 h-[450px] bg-gray-800 flex items-center justify-center overflow-hidden">
                 <img 
-                  src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjZuZTVsZHV5cHVicmpxZ3BwaGViM3ZiMWJzY25kNnRwNWpqbmRnMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MZzJPCPMwJcJYCN0lm/giphy.gif"
+                  src={appScreenshot}
                   alt="Basketball Training App Demo" 
                   className="w-full h-full object-cover"
                 />
