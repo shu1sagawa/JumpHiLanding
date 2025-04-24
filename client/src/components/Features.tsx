@@ -105,7 +105,7 @@ export default function Features() {
         >
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4 relative z-20 text-white">Why Hoopers Choose JumpHi</h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Designed by professional basketball trainers and sports scientists to help players of all levels improve their game.
+            Designed by professional basketball trainers and coaches to help players of all levels improve their game.
           </p>
         </motion.div>
         
