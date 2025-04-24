@@ -39,7 +39,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className={`sticky top-0 z-50 bg-white ${scrolled ? 'shadow-md' : ''} transition-shadow`}>
+    <header className={`sticky top-0 z-50 bg-dark ${scrolled ? 'shadow-md' : ''} transition-shadow`}>
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <span className="text-primary font-heading font-bold text-2xl">JumpHi</span>
@@ -56,12 +56,12 @@ export default function Navbar() {
         <div className="flex items-center space-x-4">
           <a 
             href="#download" 
-            className="hidden md:block bg-accent hover:bg-opacity-90 text-white px-5 py-2 rounded-full font-medium transition-all transform hover:scale-105"
+            className="hidden md:block bg-primary hover:bg-opacity-90 text-white px-5 py-2 rounded-full font-medium transition-all transform hover:scale-105"
           >
             Download
           </a>
           <button 
-            className="md:hidden text-2xl"
+            className="md:hidden text-2xl text-foreground"
             onClick={toggleMobileMenu}
             aria-label="Menu"
           >
@@ -78,7 +78,7 @@ export default function Navbar() {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="bg-white py-4 px-6 shadow-inner md:hidden overflow-hidden"
+            className="bg-dark py-4 px-6 shadow-inner md:hidden overflow-hidden"
           >
             <div className="flex flex-col space-y-3">
               <MobileNavLink href="#features">Features</MobileNavLink>
@@ -87,7 +87,7 @@ export default function Navbar() {
               <MobileNavLink href="#faq">FAQ</MobileNavLink>
               <a 
                 href="#download" 
-                className="bg-accent text-white py-3 mt-2 rounded-full font-medium text-center"
+                className="bg-primary text-white py-3 mt-2 rounded-full font-medium text-center"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Download Now

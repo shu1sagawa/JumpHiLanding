@@ -1,31 +1,31 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
-
 :root {
-  --background: 0 0% 100%;
-  --foreground: 20 14.3% 4.1%;
-  --muted: 60 4.8% 95.9%;
-  --muted-foreground: 25 5.3% 44.7%;
-  --popover: 0 0% 100%;
-  --popover-foreground: 20 14.3% 4.1%;
-  --card: 0 0% 100%;
-  --card-foreground: 20 14.3% 4.1%;
-  --border: 20 5.9% 90%;
-  --input: 20 5.9% 90%;
-  --primary: 16 85% 55%;       /* Basketball orange FF5722 */
+  --background: 0 0% 0%;                    /* Pure black background */
+  --foreground: 0 0% 98%;                   /* Light text for dark mode */
+  --muted: 0 0% 15%;                        /* Dark grey */
+  --muted-foreground: 0 0% 65%;             /* Light grey text */
+  --popover: 0 0% 3%;                       /* Very dark grey, almost black */
+  --popover-foreground: 0 0% 98%;
+  --card: 0 0% 5%;                          /* Very dark grey */
+  --card-foreground: 0 0% 98%;
+  --border: 0 0% 20%;                       /* Medium dark grey */
+  --input: 0 0% 15%;
+  --primary: 13 86% 61%;                    /* JumpHi Orange #F26E46 */
   --primary-foreground: 0 0% 100%;
-  --secondary: 237 85% 31%;    /* Deep blue 1A237E */
+  --secondary: 229 76% 58%;                 /* JumpHi Blue #4678E8 */
   --secondary-foreground: 0 0% 100%;
-  --accent: 122 39% 49%;       /* Green 4CAF50 */
+  --accent: 158 64% 52%;                    /* JumpHi Green #2BD9A0 */
   --accent-foreground: 0 0% 100%;
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 60 9.1% 97.8%;
-  --ring: 20 14.3% 4.1%;
-  --light: 0 0% 96%;           /* Light background F5F5F5 */
-  --dark: 0 0% 13%;            /* Dark text 212121 */
+  --ring: 0 0% 50%;
+  --light: 0 0% 10%;                        /* Dark grey background for sections */
+  --dark: 0 0% 0%;                          /* Pure black background for sections */
   --radius: 0.5rem;
   --sidebar-background: var(--secondary);
   --sidebar-foreground: var(--secondary-foreground);
@@ -34,30 +34,6 @@
   --chart-3: var(--accent);
   --chart-4: 220 75% 50%;
   --chart-5: 270 70% 55%;
-}
-
-.dark {
-  --background: 240 10% 3.9%;
-  --foreground: 0 0% 98%;
-  --muted: 240 3.7% 15.9%;
-  --muted-foreground: 240 5% 64.9%;
-  --popover: 240 10% 3.9%;
-  --popover-foreground: 0 0% 98%;
-  --card: 240 10% 3.9%;
-  --card-foreground: 0 0% 98%;
-  --border: 240 3.7% 15.9%;
-  --input: 240 3.7% 15.9%;
-  --primary: 16 85% 55%;       /* Basketball orange */
-  --primary-foreground: 0 0% 100%;
-  --secondary: 237 85% 31%;    /* Deep blue */
-  --secondary-foreground: 0 0% 100%;
-  --accent: 122 39% 49%;       /* Green */
-  --accent-foreground: 0 0% 98%;
-  --destructive: 0 62.8% 30.6%;
-  --destructive-foreground: 0 0% 98%;
-  --ring: 240 4.9% 83.9%;
-  --light: 240 5% 10%;         /* Dark mode light background */
-  --dark: 0 0% 95%;            /* Dark mode dark text */
 }
 
 @layer base {

@@ -91,7 +91,7 @@ export default function Features() {
   }, [isInView, controls]);
 
   return (
-    <section id="features" className="py-20 bg-white">
+    <section id="features" className="py-20 bg-light">
       <div className="container mx-auto px-4">
         <motion.div 
           ref={ref}

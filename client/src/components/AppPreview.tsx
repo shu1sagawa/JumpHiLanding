@@ -22,7 +22,7 @@ export default function AppPreview() {
   ];
 
   return (
-    <section id="training" className="py-20 bg-light">
+    <section id="training" className="py-20 bg-dark">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center">
           <motion.div 
@@ -50,8 +50,8 @@ export default function AppPreview() {
                       <CheckIcon className="text-white h-4 w-4" />
                     </div>
                     <div className="ml-4">
-                      <h3 className="text-xl font-heading font-semibold mb-2">{item.title}</h3>
-                      <p className="text-gray-600">
+                      <h3 className="text-xl font-heading font-semibold mb-2 text-white">{item.title}</h3>
+                      <p className="text-gray-300">
                         {item.description}
                       </p>
                     </div>
@@ -80,8 +80,8 @@ export default function AppPreview() {
             className="lg:w-1/2 order-1 lg:order-2 flex justify-center"
           >
             <div className="relative">
-              <div className="w-64 md:w-72 rounded-3xl shadow-xl border-8 border-white h-[450px] bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-500">App Screenshot</span>
+              <div className="w-64 md:w-72 rounded-3xl shadow-xl border-8 border-primary/30 h-[450px] bg-gray-800 flex items-center justify-center">
+                <span className="text-gray-400">App Screenshot</span>
               </div>
               
               <motion.div 
