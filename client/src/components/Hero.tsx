@@ -15,7 +15,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="md:w-1/2"
+            className="w-full lg:w-1/2"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight mb-4">
               Level Up Your <span className="text-primary">Basketball</span> Game
@@ -46,17 +46,8 @@ export default function Hero() {
                 Google Play
               </motion.a>
             </div>
-            
 
-          </motion.div>
-          
-          <motion.div 
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="md:w-1/2 mt-12 md:mt-0 flex justify-center"
-          >
-            <div className="relative w-full md:w-auto max-w-md">
+            <div className="mt-4 mb-8 md:mb-0 w-full md:max-w-md">
               <motion.div 
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -71,6 +62,8 @@ export default function Hero() {
               </motion.div>
             </div>
           </motion.div>
+          
+
         </div>
       </div>
       
