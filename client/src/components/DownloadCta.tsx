@@ -26,13 +26,13 @@ export default function DownloadCta() {
             Join thousands of players who are taking their basketball skills to the next level with JumpHi.
           </p>
           
-          <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6 mb-10">
+          <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 mb-10">
             <motion.a 
               href="https://apps.apple.com" 
               target="_blank"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="flex items-center bg-white text-dark px-6 py-3 rounded-xl transition-all hover:shadow-lg w-64"
+              className="flex items-center bg-gradient-to-r from-secondary to-accent text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg border border-white/30"
             >
               <AppleIcon className="h-8 w-8 mr-4" />
               <div className="text-left">
@@ -46,7 +46,7 @@ export default function DownloadCta() {
               target="_blank"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="flex items-center bg-white text-dark px-6 py-3 rounded-xl transition-all hover:shadow-lg w-64"
+              className="flex items-center bg-gradient-to-r from-secondary to-accent text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg border border-white/30"
             >
               <PlayIcon className="h-8 w-8 mr-4" />
               <div className="text-left">
