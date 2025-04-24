@@ -7,7 +7,7 @@ import jumphiLogo from "../assets/jumphi-logo.png";
 const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
   <a 
     href={href} 
-    className="font-medium hover:text-primary transition-colors"
+    className="font-medium hover:text-primary transition-colors text-xs"
   >
     {children}
   </a>
@@ -46,7 +46,7 @@ export default function Navbar() {
           <img src={jumphiLogo} alt="JumpHi Logo" className="h-60 md:h-72" />
         </Link>
         
-        <nav className="hidden md:flex space-x-8">
+        <nav className="hidden md:flex space-x-6">
           <NavLink href="#features">Features</NavLink>
           <NavLink href="#training">Training</NavLink>
           <NavLink href="#testimonials">Testimonials</NavLink>
@@ -56,7 +56,7 @@ export default function Navbar() {
         <div className="flex items-center space-x-4">
           <a 
             href="#download" 
-            className="hidden md:block bg-primary hover:bg-opacity-90 text-white px-5 py-2 rounded-full font-medium transition-all transform hover:scale-105"
+            className="hidden md:block bg-primary hover:bg-opacity-90 text-white px-4 py-1.5 rounded-full text-xs font-medium transition-all transform hover:scale-105"
           >
             Download
           </a>
