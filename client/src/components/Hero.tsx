@@ -16,7 +16,7 @@ export default function Hero() {
                 <span className="font-bold text-white">Level</span><span>Up</span> <span>Your</span>
               </div>
               <div>
-                <span className="font-bold text-[#DC60EC]">Basketball</span> <span>Game</span>
+                <span className="font-bold text-white">Basketball</span> <span>Game</span>
               </div>
             </h1>
             <p className="text-lg md:text-xl mb-6 text-gray-100 max-w-lg mx-auto">
