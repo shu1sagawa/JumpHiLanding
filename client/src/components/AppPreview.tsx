@@ -105,7 +105,7 @@ export default function AppPreview() {
                 className="absolute -bottom-5 -left-5 bg-white p-3 rounded-xl shadow-lg z-10"
               >
                 <div className="flex items-center">
-                  <TimerIcon className="text-secondary h-5 w-5" />
+                  <TimerIcon className="text-primary h-5 w-5" />
                   <div className="ml-3">
                     <p className="text-dark font-bold text-sm">35 min workout</p>
                   </div>

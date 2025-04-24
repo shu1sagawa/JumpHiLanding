@@ -17,9 +17,9 @@
   --input: 0 0% 15%;
   --primary: 13 86% 61%;                    /* JumpHi Orange #F26E46 */
   --primary-foreground: 0 0% 100%;
-  --secondary: 229 76% 58%;                 /* JumpHi Blue #4678E8 */
+  --secondary: 0 0% 30%;                    /* Dark grey instead of blue */
   --secondary-foreground: 0 0% 100%;
-  --accent: 158 64% 52%;                    /* JumpHi Green #2BD9A0 */
+  --accent: 13 70% 50%;                     /* Darker orange instead of green */
   --accent-foreground: 0 0% 100%;
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 60 9.1% 97.8%;

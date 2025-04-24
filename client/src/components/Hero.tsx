@@ -32,7 +32,7 @@ export default function Hero() {
                 target="_blank"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="flex items-center justify-center bg-white text-secondary px-6 py-3 rounded-full font-medium transition-all hover:shadow-lg"
+                className="flex items-center justify-center bg-white text-primary px-6 py-3 rounded-full font-medium transition-all hover:shadow-lg"
               >
                 <AppleIcon className="mr-2 h-5 w-5" />
                 App Store
@@ -42,7 +42,7 @@ export default function Hero() {
                 target="_blank"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="flex items-center justify-center bg-white text-secondary px-6 py-3 rounded-full font-medium transition-all hover:shadow-lg"
+                className="flex items-center justify-center bg-white text-primary px-6 py-3 rounded-full font-medium transition-all hover:shadow-lg"
               >
                 <PlayIcon className="mr-2 h-5 w-5" />
                 Google Play
@@ -88,7 +88,7 @@ export default function Hero() {
                 className="absolute -bottom-6 -right-6 bg-white p-4 rounded-xl shadow-lg transform rotate-3 z-20"
               >
                 <div className="flex items-center">
-                  <TrendingUpIcon className="text-accent h-5 w-5" />
+                  <TrendingUpIcon className="text-primary h-5 w-5" />
                   <div className="ml-3">
                     <p className="text-dark font-medium text-sm">Progress</p>
                     <p className="text-primary font-bold">+27% this month</p>
