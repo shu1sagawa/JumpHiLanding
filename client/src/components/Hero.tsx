@@ -2,8 +2,6 @@ import { motion } from "framer-motion";
 import { 
   AppleIcon, 
   PlayIcon, 
-  StarIcon, 
-  StarHalfIcon,
   TrendingUpIcon
 } from "lucide-react";
 
@@ -59,13 +57,9 @@ export default function Hero() {
               </div>
               <div className="ml-4">
                 <div className="flex items-center">
-                  {[1, 2, 3, 4].map((i) => (
-                    <StarIcon key={i} className="h-4 w-4 text-yellow-400" />
-                  ))}
-                  <StarHalfIcon className="h-4 w-4 text-yellow-400" />
-                  <span className="ml-1 font-medium">4.8</span>
+                  <p className="text-sm font-medium">Highly rated app</p>
                 </div>
-                <p className="text-sm text-gray-200">From 2,000+ reviews</p>
+                <p className="text-sm text-gray-200">From thousands of users</p>
               </div>
             </div>
           </motion.div>
