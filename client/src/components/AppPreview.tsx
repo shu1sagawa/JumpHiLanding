@@ -1,4 +1,5 @@
 import { CheckIcon, TimerIcon, Flame } from "lucide-react";
+import basketballTraining from "../assets/basketball-training.gif";
 
 export default function AppPreview() {
   const checkItems = [
@@ -55,7 +56,7 @@ export default function AppPreview() {
             <div className="relative">
               <div className="w-64 md:w-72 rounded-3xl shadow-xl border-8 border-accent/30 h-[450px] bg-gray-800 flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/images/basketball-training.gif"
+                  src={basketballTraining}
                   alt="Basketball Training Demo" 
                   className="w-full h-full object-cover"
                 />
