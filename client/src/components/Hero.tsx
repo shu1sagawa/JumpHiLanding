@@ -3,7 +3,7 @@ import {
   AppleIcon, 
   PlayIcon
 } from "lucide-react";
-import jumpHiPreview from "@assets/Your paragraph text.png";
+import jumpHiPreview from "../assets/Your paragraph text.png";
 
 export default function Hero() {
   return (
