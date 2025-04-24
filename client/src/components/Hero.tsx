@@ -7,7 +7,7 @@ import jumpHiPreview from "@assets/Your paragraph text.png";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-black to-muted text-white py-10 md:py-20">
+    <section className="relative overflow-hidden bg-gradient-to-br from-black to-muted text-white py-6 md:py-8">
       <div className="absolute inset-0 ball-pattern"></div>
       <div className="container mx-auto px-4 z-10 relative">
         <div className="flex flex-col items-center">
@@ -15,22 +15,22 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="w-full lg:w-3/4 text-center"
+            className="w-full text-center"
           >
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight mb-2">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight mb-1">
               Level Up Your <span className="text-primary">Basketball</span> Game
             </h1>
-            <p className="text-lg md:text-xl mb-3 text-gray-100 max-w-lg mx-auto">
+            <p className="text-lg md:text-xl mb-1 text-gray-100 max-w-lg mx-auto">
               Professional training programs, drills, and tracking tools in your pocket. Elevate your skills with JumpHi.
             </p>
             
-            <div className="flex flex-row justify-center space-x-4 mb-3">
+            <div className="flex flex-row justify-center space-x-4">
               <motion.a 
                 href="https://apps.apple.com" 
                 target="_blank"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="flex items-center justify-center bg-white text-primary px-6 py-3 rounded-full font-medium transition-all hover:shadow-lg"
+                className="flex items-center justify-center bg-white text-primary px-6 py-1 rounded-full font-medium transition-all hover:shadow-lg"
               >
                 <AppleIcon className="mr-2 h-5 w-5" />
                 App Store
@@ -40,7 +40,7 @@ export default function Hero() {
                 target="_blank"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="flex items-center justify-center bg-white text-primary px-6 py-3 rounded-full font-medium transition-all hover:shadow-lg"
+                className="flex items-center justify-center bg-white text-primary px-6 py-1 rounded-full font-medium transition-all hover:shadow-lg"
               >
                 <PlayIcon className="mr-2 h-5 w-5" />
                 Google Play
@@ -52,13 +52,13 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
-            className="w-full mt-1"
+            className="w-full -mt-4"
           >
-            <div className="relative z-10 overflow-hidden rounded-lg shadow-2xl">
+            <div className="relative z-10 overflow-hidden shadow-2xl">
               <img 
                 src={jumpHiPreview} 
                 alt="Jump Hi - High is the limit" 
-                className="w-full max-w-4xl h-auto mx-auto"
+                className="w-full max-w-5xl h-auto mx-auto"
               />
             </div>
           </motion.div>
