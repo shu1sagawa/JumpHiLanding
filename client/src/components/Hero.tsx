@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="container mx-auto px-4 z-10 relative">
         <div className="flex flex-col items-center">
           <div className="w-full text-center">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight mb-2">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-thin italic leading-tight mb-2">
               Level Up Your <span className="text-primary">Basketball</span> Game
             </h1>
             <p className="text-lg md:text-xl mb-6 text-gray-100 max-w-lg mx-auto">
