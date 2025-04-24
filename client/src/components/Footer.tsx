@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <a href="#" className="flex items-center">
-              <img src={jumphiLogo} alt="JumpHi Logo" className="h-120 md:h-144" />
+              <img src={jumphiLogo} alt="JumpHi Logo" className="h-60 md:h-72" />
             </a>
             <p className="mt-4">
               The ultimate basketball training app designed to help players of all levels improve their skills and elevate their game.
