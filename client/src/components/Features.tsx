@@ -103,7 +103,7 @@ export default function Features() {
           }}
           className="text-center mb-12 relative"
         >
-          <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4 relative z-20 bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-transparent bg-clip-text">Why Hoopers Choose JumpHi</h2>
+          <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4 relative z-20 text-white">Why Hoopers Choose JumpHi</h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
             Designed by professional basketball trainers and sports scientists to help players of all levels improve their game.
           </p>
