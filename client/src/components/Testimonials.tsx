@@ -30,7 +30,7 @@ function TestimonialCard({ testimonial, index }: { testimonial: typeof testimoni
       initial={{ opacity: 0, y: 20 }}
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
       transition={{ duration: 0.6, delay: index * 0.1 }}
-      className="bg-secondary-800 bg-opacity-30 backdrop-blur-lg rounded-xl p-6"
+      className="bg-muted rounded-xl p-6"
     >
       <div className="flex items-center mb-4">
         <div className="w-12 h-12 rounded-full bg-gray-600 flex items-center justify-center text-white overflow-hidden">
@@ -58,7 +58,7 @@ export default function Testimonials() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="testimonials" className="py-20 bg-secondary text-white">
+    <section id="testimonials" className="py-20 bg-dark text-white">
       <div className="container mx-auto px-4">
         <motion.div 
           ref={ref}

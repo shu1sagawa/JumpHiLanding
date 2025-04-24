@@ -75,7 +75,7 @@ export default function Faq() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="faq" className="py-20 bg-white">
+    <section id="faq" className="py-20 bg-light">
       <div className="container mx-auto px-4">
         <motion.div 
           ref={ref}
@@ -84,8 +84,8 @@ export default function Faq() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">Frequently Asked Questions</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4 text-white">Frequently Asked Questions</h2>
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
             Everything you need to know about the JumpHi basketball training app.
           </p>
         </motion.div>

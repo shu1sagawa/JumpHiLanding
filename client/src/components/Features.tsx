@@ -66,13 +66,13 @@ function FeatureCard({ feature, index }: { feature: typeof features[0], index: n
           transition: { duration: 0.5, delay: index * 0.1 } 
         }
       }}
-      className="bg-light rounded-xl p-6"
+      className="bg-muted rounded-xl p-6"
     >
       <div className="bg-primary bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mb-6">
         {feature.icon}
       </div>
-      <h3 className="text-xl font-heading font-bold mb-3">{feature.title}</h3>
-      <p className="text-gray-600">
+      <h3 className="text-xl font-heading font-bold mb-3 text-white">{feature.title}</h3>
+      <p className="text-gray-300">
         {feature.description}
       </p>
     </motion.div>

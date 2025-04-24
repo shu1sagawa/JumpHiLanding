@@ -78,8 +78,8 @@ export default function Hero() {
           >
             <div className="relative w-64 md:w-80">
               <div className="absolute -top-4 -left-4 w-full h-full bg-primary rounded-3xl transform rotate-6"></div>
-              <div className="relative z-10 rounded-3xl shadow-xl border-4 border-white h-[500px] md:h-[600px] bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-500">App Preview</span>
+              <div className="relative z-10 rounded-3xl shadow-xl border-4 border-primary/30 h-[500px] md:h-[600px] bg-gray-800 flex items-center justify-center">
+                <span className="text-gray-400">App Preview</span>
               </div>
               <motion.div 
                 initial={{ y: 10, opacity: 0 }}
