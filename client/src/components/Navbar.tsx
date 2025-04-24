@@ -43,7 +43,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 shadow-md" style={{ backgroundColor: "#000000" }}>
       <div className="container mx-auto px-4 py-0 flex items-center justify-between">
         <Link href="/" className="flex items-center">
-          <img src={jumphiLogo} alt="JumpHi Logo" className="h-60 md:h-72" />
+          <img src={jumphiLogo} alt="JumpHi Logo" className="h-120 md:h-144" />
         </Link>
         
         <nav className="hidden md:flex space-x-4">
