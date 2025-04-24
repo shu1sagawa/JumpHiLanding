@@ -40,7 +40,7 @@ function FaqItem({ faq, index }: { faq: typeof faqs[0], index: number }) {
     >
       <button 
         onClick={() => setIsOpen(!isOpen)}
-        className="flex justify-between items-center w-full text-left p-4 rounded-lg bg-light hover:bg-gray-200 transition-colors"
+        className="flex justify-between items-center w-full text-left p-4 rounded-lg bg-muted hover:bg-muted/80 text-white transition-colors"
         aria-expanded={isOpen}
       >
         <span className="font-heading font-semibold text-lg">{faq.question}</span>
@@ -61,7 +61,7 @@ function FaqItem({ faq, index }: { faq: typeof faqs[0], index: number }) {
             className="overflow-hidden"
           >
             <div className="px-4 pt-2 pb-4">
-              <p className="text-gray-600">{faq.answer}</p>
+              <p className="text-gray-300">{faq.answer}</p>
             </div>
           </motion.div>
         )}
