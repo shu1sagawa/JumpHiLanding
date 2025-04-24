@@ -103,7 +103,7 @@ export default function Features() {
           }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">Why Ballers Choose JumpHi</h2>
+          <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">Why Hoopers Choose JumpHi</h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
             Designed by professional basketball trainers and sports scientists to help players of all levels improve their game.
           </p>

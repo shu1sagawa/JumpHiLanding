@@ -32,7 +32,7 @@ export default function DownloadCta() {
               target="_blank"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="flex items-center bg-[#DC60EC] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg border border-white/20"
+              className="flex items-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg border border-white/20"
             >
               <AppleIcon className="h-8 w-8 mr-4" />
               <div className="text-left">
@@ -46,7 +46,7 @@ export default function DownloadCta() {
               target="_blank"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="flex items-center bg-[#DC60EC] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg border border-white/20"
+              className="flex items-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg border border-white/20"
             >
               <PlayIcon className="h-8 w-8 mr-4" />
               <div className="text-left">

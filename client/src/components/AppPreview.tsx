@@ -66,7 +66,7 @@ export default function AppPreview() {
                 transition={{ duration: 0.4, delay: 0.8 }}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="inline-block mt-8 bg-[#DC60EC] hover:bg-opacity-90 text-white px-8 py-4 rounded-full font-medium transition-all hover:shadow-lg"
+                className="inline-block mt-8 bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] hover:bg-opacity-90 text-white px-8 py-4 rounded-full font-medium transition-all hover:shadow-lg"
               >
                 Start Training Now
               </motion.a>
