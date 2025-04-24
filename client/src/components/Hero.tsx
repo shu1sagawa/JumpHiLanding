@@ -20,11 +20,11 @@ export default function Hero() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight mb-4">
               Level Up Your <span className="text-primary">Basketball</span> Game
             </h1>
-            <p className="text-lg md:text-xl mb-8 text-gray-100 max-w-md">
+            <p className="text-lg md:text-xl mb-4 text-gray-100 max-w-md">
               Professional training programs, drills, and tracking tools in your pocket. Elevate your skills with JumpHi.
             </p>
             
-            <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mb-8">
+            <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mb-1">
               <motion.a 
                 href="https://apps.apple.com" 
                 target="_blank"
@@ -36,7 +36,7 @@ export default function Hero() {
                 App Store
               </motion.a>
               <motion.a 
-                href="https://play.google.com" 
+                href="https://play.google.com"
                 target="_blank"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -47,7 +47,7 @@ export default function Hero() {
               </motion.a>
             </div>
 
-            <div className="mt-4 mb-8 md:mb-0 w-full md:max-w-md">
+            <div className="w-full md:max-w-xl">
               <motion.div 
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
