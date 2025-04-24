@@ -10,7 +10,7 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-gradient-to-br from-black to-muted text-white pt-2 pb-0">
       <div className="absolute inset-0 ball-pattern"></div>
       <div className="container mx-auto px-4 z-10 relative">
-        <div className="relative">
+        <div className="flex flex-col items-center">
           <div className="w-full text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight mb-2">
               Level Up Your <span className="text-primary">Basketball</span> Game
@@ -40,14 +40,12 @@ export default function Hero() {
             </div>
           </div>
           
-          {/* Image positioned with absolute positioning */}
-          <div className="absolute top-[135px] left-0 right-0">
-            <img 
-              src={jumpHiPreview} 
-              alt="Jump Hi - High is the limit" 
-              className="w-full max-w-6xl h-auto mx-auto"
-            />
-          </div>
+          {/* Main image (directly below buttons) */}
+          <img 
+            src={jumpHiPreview} 
+            alt="Jump Hi - High is the limit" 
+            className="w-full max-w-5xl h-auto -mt-6"
+          />
         </div>
       </div>
       
