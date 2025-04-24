@@ -1,6 +1,3 @@
-import { useRef } from "react";
-import { motion, useInView } from "framer-motion";
-
 const testimonials = [
   {
     name: "Ellie Jordan Llamas",
@@ -26,17 +23,8 @@ const testimonials = [
 ];
 
 function TestimonialCard({ testimonial, index }: { testimonial: typeof testimonials[0], index: number }) {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-50px" });
-
   return (
-    <motion.div
-      ref={ref}
-      initial={{ opacity: 0, y: 20 }}
-      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-      transition={{ duration: 0.6, delay: index * 0.1 }}
-      className="bg-muted rounded-xl p-6"
-    >
+    <div className="bg-muted rounded-xl p-6">
       <div className="flex items-center mb-4">
         <div className="w-12 h-12 rounded-full bg-gray-600 flex items-center justify-center text-white overflow-hidden">
           {testimonial.name[0]}
@@ -52,29 +40,20 @@ function TestimonialCard({ testimonial, index }: { testimonial: typeof testimoni
       <p className="text-gray-200">
         "{testimonial.text}"
       </p>
-    </motion.div>
+    </div>
   );
 }
 
 export default function Testimonials() {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
-
   return (
     <section id="testimonials" className="py-20 bg-dark text-white">
       <div className="container mx-auto px-4">
-        <motion.div 
-          ref={ref}
-          initial={{ opacity: 0, y: 20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
-        >
+        <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">Real User Reviews</h2>
           <p className="text-lg text-gray-200 max-w-2xl mx-auto">
             See what players, families, and athletes are saying about JumpHi.
           </p>
-        </motion.div>
+        </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (

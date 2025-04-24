@@ -1,5 +1,4 @@
-import { useState, useRef } from "react";
-import { motion, AnimatePresence, useInView } from "framer-motion";
+import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
 const faqs = [
@@ -27,68 +26,40 @@ const faqs = [
 
 function FaqItem({ faq, index }: { faq: typeof faqs[0], index: number }) {
   const [isOpen, setIsOpen] = useState(false);
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-50px" });
 
   return (
-    <motion.div 
-      ref={ref}
-      initial={{ opacity: 0, y: 20 }}
-      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-      transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="mb-6"
-    >
+    <div className="mb-6">
       <button 
         onClick={() => setIsOpen(!isOpen)}
         className="flex justify-between items-center w-full text-left p-4 rounded-lg bg-muted hover:bg-muted/80 text-white transition-colors"
         aria-expanded={isOpen}
       >
         <span className="font-heading font-semibold text-lg">{faq.question}</span>
-        <motion.div
-          animate={{ rotate: isOpen ? 180 : 0 }}
-          transition={{ duration: 0.3 }}
-        >
+        <div className={`transform transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>
           <ChevronDown className="h-5 w-5 text-primary" />
-        </motion.div>
+        </div>
       </button>
-      <AnimatePresence>
-        {isOpen && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.3 }}
-            className="overflow-hidden"
-          >
-            <div className="px-4 pt-2 pb-4">
-              <p className="text-gray-300">{faq.answer}</p>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </motion.div>
+      {isOpen && (
+        <div className="overflow-hidden">
+          <div className="px-4 pt-2 pb-4">
+            <p className="text-gray-300">{faq.answer}</p>
+          </div>
+        </div>
+      )}
+    </div>
   );
 }
 
 export default function Faq() {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
-
   return (
     <section id="faq" className="py-20 bg-light">
       <div className="container mx-auto px-4">
-        <motion.div 
-          ref={ref}
-          initial={{ opacity: 0, y: 20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
-        >
+        <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4 text-white">Frequently Asked Questions</h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
             Everything you need to know about the JumpHi basketball training app.
           </p>
-        </motion.div>
+        </div>
         
         <div className="max-w-3xl mx-auto">
           {faqs.map((faq, index) => (

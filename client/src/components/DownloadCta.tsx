@@ -1,5 +1,3 @@
-import { useRef } from "react";
-import { motion, useInView } from "framer-motion";
 import { 
   AppleIcon, 
   PlayIcon,
@@ -8,60 +6,42 @@ import {
 } from "lucide-react";
 
 export default function DownloadCta() {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
-
   return (
     <section id="download" className="py-20 bg-gradient-to-r from-accent to-secondary text-white">
       <div className="container mx-auto px-4 text-center">
-        <motion.div 
-          ref={ref}
-          initial={{ opacity: 0, y: 20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-          transition={{ duration: 0.6 }}
-          className="max-w-3xl mx-auto"
-        >
+        <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">Ready to Transform Your Game?</h2>
           <p className="text-xl mb-10">
             Join thousands of players who are taking their basketball skills to the next level with JumpHi.
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 mb-10">
-            <motion.a 
+            <a 
               href="https://apps.apple.com" 
               target="_blank"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="flex items-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg border border-white/20"
+              className="flex items-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg hover:scale-105 border border-white/20"
             >
               <AppleIcon className="h-8 w-8 mr-4" />
               <div className="text-left">
                 <p className="text-xs">Download on the</p>
                 <p className="text-xl font-heading font-bold">App Store</p>
               </div>
-            </motion.a>
+            </a>
             
-            <motion.a 
+            <a 
               href="https://play.google.com" 
               target="_blank"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="flex items-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg border border-white/20"
+              className="flex items-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg hover:scale-105 border border-white/20"
             >
               <PlayIcon className="h-8 w-8 mr-4" />
               <div className="text-left">
                 <p className="text-xs">Get it on</p>
                 <p className="text-xl font-heading font-bold">Google Play</p>
               </div>
-            </motion.a>
+            </a>
           </div>
           
-          <motion.div 
-            initial={{ opacity: 0 }}
-            animate={isInView ? { opacity: 1 } : { opacity: 0 }}
-            transition={{ delay: 0.4, duration: 0.6 }}
-            className="flex flex-wrap justify-center items-center gap-8"
-          >
+          <div className="flex flex-wrap justify-center items-center gap-8">
             <div className="flex items-center">
               <Users className="h-6 w-6 mr-2" />
               <span className="font-medium">100,000+ Users</span>
@@ -80,8 +60,8 @@ export default function DownloadCta() {
               <RefreshCwIcon className="h-6 w-6 mr-2" />
               <span className="font-medium">Weekly Updates</span>
             </div>
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
       </div>
     </section>
   );
