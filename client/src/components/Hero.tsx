@@ -7,7 +7,7 @@ import jumpHiPreview from "../assets/Your paragraph text.png";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-black via-[#070B34] to-[#1A2562] text-white pt-2 pb-16">
+    <section className="relative overflow-hidden bg-gradient-to-br from-black via-[#070B34] to-[#1A2562] text-white pt-2 pb-0">
       <div className="absolute inset-0 ball-pattern opacity-30"></div>
       <div className="container mx-auto px-4 z-10 relative">
         <div className="flex flex-col items-center">

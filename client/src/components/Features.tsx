@@ -91,7 +91,7 @@ export default function Features() {
   }, [isInView, controls]);
 
   return (
-    <section id="features" className="pt-8 pb-20 -mt-12 bg-gradient-to-b from-[#070B34] to-[#0d1338]">
+    <section id="features" className="pt-8 pb-20 -mt-28 bg-gradient-to-b from-[#070B34] to-[#0d1338]">
       <div className="container mx-auto px-4">
         <motion.div 
           ref={ref}
