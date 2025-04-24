@@ -20,7 +20,7 @@ export default function Hero() {
             </p>
             
             {/* Buttons */}
-            <div className="flex flex-row justify-center space-x-4 mt-2">
+            <div className="flex flex-row justify-center space-x-4 mt-2 mb-4">
               <a 
                 href="https://apps.apple.com" 
                 target="_blank"
