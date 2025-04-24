@@ -7,7 +7,7 @@ import jumphiLogo from "../assets/jumphi-logo.png";
 const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
   <a 
     href={href} 
-    className="font-medium hover:text-primary transition-colors text-xs"
+    className="font-medium hover:text-primary transition-colors text-[10px] tracking-tight"
   >
     {children}
   </a>
@@ -41,12 +41,12 @@ export default function Navbar() {
 
   return (
     <header className={`sticky top-0 z-50 bg-dark ${scrolled ? 'shadow-md' : ''} transition-shadow`}>
-      <div className="container mx-auto px-4 py-6 flex items-center justify-between">
+      <div className="container mx-auto px-4 py-1 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <img src={jumphiLogo} alt="JumpHi Logo" className="h-60 md:h-72" />
         </Link>
         
-        <nav className="hidden md:flex space-x-6">
+        <nav className="hidden md:flex space-x-4">
           <NavLink href="#features">Features</NavLink>
           <NavLink href="#training">Training</NavLink>
           <NavLink href="#testimonials">Testimonials</NavLink>
@@ -56,7 +56,7 @@ export default function Navbar() {
         <div className="flex items-center space-x-4">
           <a 
             href="#download" 
-            className="hidden md:block bg-primary hover:bg-opacity-90 text-white px-4 py-1.5 rounded-full text-xs font-medium transition-all transform hover:scale-105"
+            className="hidden md:block bg-primary hover:bg-opacity-90 text-white px-3 py-1 rounded-full text-[10px] font-medium transition-all transform hover:scale-105"
           >
             Download
           </a>
