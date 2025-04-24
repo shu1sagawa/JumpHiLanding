@@ -4,9 +4,6 @@ import {
   PlayIcon, 
   TrendingUpIcon
 } from "lucide-react";
-import avatar1 from "../assets/basketball-avatar-1.svg";
-import avatar2 from "../assets/basketball-avatar-2.svg";
-import avatar3 from "../assets/basketball-avatar-3.svg";
 
 export default function Hero() {
   return (
@@ -50,22 +47,7 @@ export default function Hero() {
               </motion.a>
             </div>
             
-            <div className="flex items-center">
-              <div className="flex -space-x-2">
-                <div className="w-10 h-10 rounded-full border-2 border-white overflow-hidden">
-                  <img src={avatar1} alt="Basketball player" className="w-full h-full object-cover" />
-                </div>
-                <div className="w-10 h-10 rounded-full border-2 border-white overflow-hidden">
-                  <img src={avatar2} alt="Basketball player" className="w-full h-full object-cover" />
-                </div>
-                <div className="w-10 h-10 rounded-full border-2 border-white overflow-hidden">
-                  <img src={avatar3} alt="Basketball player" className="w-full h-full object-cover" />
-                </div>
-              </div>
-              <div className="ml-4">
-                <p className="text-sm text-gray-200">Join thousands of players</p>
-              </div>
-            </div>
+
           </motion.div>
           
           <motion.div 
