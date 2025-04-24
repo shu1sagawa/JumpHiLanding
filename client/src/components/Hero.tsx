@@ -15,12 +15,12 @@ export default function Hero() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight mb-2">
               Level Up Your <span className="text-primary">Basketball</span> Game
             </h1>
-            <p className="text-lg md:text-xl mb-2 text-gray-100 max-w-lg mx-auto">
+            <p className="text-lg md:text-xl mb-6 text-gray-100 max-w-lg mx-auto">
               Professional training programs, drills, and tracking tools in your pocket. Elevate your skills with JumpHi.
             </p>
             
             {/* Buttons */}
-            <div className="flex flex-row justify-center space-x-4 mt-2 mb-4">
+            <div className="flex flex-row justify-center space-x-4 mt-6 mb-14">
               <a 
                 href="https://apps.apple.com" 
                 target="_blank"
