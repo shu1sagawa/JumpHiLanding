@@ -7,61 +7,47 @@ import jumpHiPreview from "@assets/Your paragraph text.png";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-black to-muted text-white py-6 md:py-8">
+    <section className="relative overflow-hidden bg-gradient-to-br from-black to-muted text-white pt-2 pb-0">
       <div className="absolute inset-0 ball-pattern"></div>
       <div className="container mx-auto px-4 z-10 relative">
         <div className="flex flex-col items-center">
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="w-full text-center"
-          >
+          <div className="w-full text-center">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight mb-1">
               Level Up Your <span className="text-primary">Basketball</span> Game
             </h1>
-            <p className="text-lg md:text-xl mb-1 text-gray-100 max-w-lg mx-auto">
-              Professional training programs, drills, and tracking tools in your pocket. Elevate your skills with JumpHi.
+            <p className="text-sm md:text-base mb-0 text-gray-100 max-w-sm mx-auto">
+              Professional training programs, drills, and tracking tools in your pocket.
             </p>
             
-            <div className="flex flex-row justify-center space-x-4">
-              <motion.a 
+            <div className="flex flex-row justify-center space-x-3 mt-1 relative z-20">
+              <a 
                 href="https://apps.apple.com" 
                 target="_blank"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="flex items-center justify-center bg-white text-primary px-6 py-1 rounded-full font-medium transition-all hover:shadow-lg"
+                className="flex items-center justify-center bg-white text-primary px-4 py-0.5 rounded-full font-medium hover:shadow-lg"
               >
-                <AppleIcon className="mr-2 h-5 w-5" />
+                <AppleIcon className="mr-1 h-4 w-4" />
                 App Store
-              </motion.a>
-              <motion.a 
+              </a>
+              <a 
                 href="https://play.google.com"
                 target="_blank"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="flex items-center justify-center bg-white text-primary px-6 py-1 rounded-full font-medium transition-all hover:shadow-lg"
+                className="flex items-center justify-center bg-white text-primary px-4 py-0.5 rounded-full font-medium hover:shadow-lg"
               >
-                <PlayIcon className="mr-2 h-5 w-5" />
+                <PlayIcon className="mr-1 h-4 w-4" />
                 Google Play
-              </motion.a>
+              </a>
             </div>
-          </motion.div>
-
-          <motion.div 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            className="w-full -mt-4"
-          >
-            <div className="relative z-10 overflow-hidden shadow-2xl">
-              <img 
-                src={jumpHiPreview} 
-                alt="Jump Hi - High is the limit" 
-                className="w-full max-w-5xl h-auto mx-auto"
-              />
-            </div>
-          </motion.div>
+          </div>
+        </div>
+        
+        <div className="w-full" style={{ marginTop: "-15px" }}>
+          <div className="relative z-10">
+            <img 
+              src={jumpHiPreview} 
+              alt="Jump Hi - High is the limit" 
+              className="w-full max-w-5xl h-auto mx-auto"
+            />
+          </div>
         </div>
       </div>
       
