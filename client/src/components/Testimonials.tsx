@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { Star } from "lucide-react";
 
 const testimonials = [
   {
@@ -48,11 +47,7 @@ function TestimonialCard({ testimonial, index }: { testimonial: typeof testimoni
           <p className="text-xs text-gray-400">{testimonial.date}</p>
         </div>
       </div>
-      <div className="flex mb-4">
-        {[1, 2, 3, 4, 5].map((i) => (
-          <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
-        ))}
-      </div>
+
       <h4 className="font-semibold text-white mb-2">{testimonial.title}</h4>
       <p className="text-gray-200">
         "{testimonial.text}"
