@@ -11,8 +11,9 @@ export default function Hero() {
       <div className="container mx-auto px-4 z-10 relative">
         <div className="flex flex-col items-center">
           <div className="w-full text-center">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-thin italic leading-tight mb-2 whitespace-nowrap">
-              <span className="font-bold">Level</span><span>Up</span> Your <span className="whitespace-nowrap"><span className="text-primary font-bold">Basketball</span> Game</span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-thin italic leading-tight mb-2">
+              <div><span className="font-bold">Level</span><span>Up</span> Your</div>
+              <div><span className="text-primary font-bold">Basketball</span> Game</div>
             </h1>
             <p className="text-lg md:text-xl mb-6 text-gray-100 max-w-lg mx-auto">
               Professional training programs, drills, and tracking tools in your pocket. Elevate your skills with JumpHi.
