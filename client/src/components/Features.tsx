@@ -11,7 +11,7 @@ import BasketballCourt from "./icons/BasketballCourt";
 
 const features = [
   {
-    icon: <BasketballCourt className="text-3xl text-secondary h-8 w-8" />,
+    icon: <BasketballCourt className="text-3xl text-secondary h-16 w-16" />,
     title: "Personalized Workouts",
     description: "Custom training plans based on your position, skill level, and specific goals."
   },
@@ -69,7 +69,7 @@ function FeatureCard({ feature, index }: { feature: typeof features[0], index: n
       className="bg-gradient-to-br from-[#0d1338] to-[#1c2b68] rounded-xl p-8 border border-indigo-500/20 shadow-xl hover:shadow-indigo-500/10 hover:scale-105 transition-all duration-300"
     >
       <div className="flex gap-4 items-start">
-        <div className="bg-gradient-to-r from-[#DC60EC]/30 to-[#3b82f6]/30 w-20 h-20 rounded-2xl flex items-center justify-center shrink-0 shadow-inner">
+        <div className="bg-gradient-to-r from-[#DC60EC]/30 to-[#3b82f6]/30 w-24 h-24 rounded-2xl flex items-center justify-center shrink-0 shadow-inner">
           {feature.icon}
         </div>
         <div>
