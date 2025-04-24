@@ -40,8 +40,8 @@ export default function Navbar() {
   };
 
   return (
-    <header className={`sticky top-0 z-50 bg-dark ${scrolled ? 'shadow-md' : ''} transition-shadow`}>
-      <div className="container mx-auto px-4 py-1 flex items-center justify-between">
+    <header className="sticky top-0 z-50 shadow-md" style={{ backgroundColor: "#000000" }}>
+      <div className="container mx-auto px-4 py-0 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <img src={jumphiLogo} alt="JumpHi Logo" className="h-60 md:h-72" />
         </Link>
@@ -78,7 +78,8 @@ export default function Navbar() {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="bg-dark py-4 px-6 shadow-inner md:hidden overflow-hidden"
+            className="py-4 px-6 shadow-inner md:hidden overflow-hidden"
+            style={{ backgroundColor: "#000000" }}
           >
             <div className="flex flex-col space-y-3">
               <MobileNavLink href="#features">Features</MobileNavLink>
