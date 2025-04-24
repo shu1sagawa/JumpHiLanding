@@ -10,42 +10,42 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-gradient-to-br from-black to-muted text-white pt-2 pb-0">
       <div className="absolute inset-0 ball-pattern"></div>
       <div className="container mx-auto px-4 z-10 relative">
-        <div className="flex flex-col items-center">
+        <div className="relative">
           <div className="w-full text-center">
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight mb-1">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight mb-2">
               Level Up Your <span className="text-primary">Basketball</span> Game
             </h1>
-            <p className="text-sm md:text-base mb-0 text-gray-100 max-w-sm mx-auto">
-              Professional training programs, drills, and tracking tools in your pocket.
+            <p className="text-lg md:text-xl mb-2 text-gray-100 max-w-lg mx-auto">
+              Professional training programs, drills, and tracking tools in your pocket. Elevate your skills with JumpHi.
             </p>
             
-            <div className="flex flex-row justify-center space-x-3 mt-1 relative z-20">
+            {/* Buttons */}
+            <div className="flex flex-row justify-center space-x-4 mt-2">
               <a 
                 href="https://apps.apple.com" 
                 target="_blank"
-                className="flex items-center justify-center bg-white text-primary px-4 py-0.5 rounded-full font-medium hover:shadow-lg"
+                className="flex items-center justify-center bg-white text-primary px-6 py-3 rounded-full font-medium hover:shadow-lg"
               >
-                <AppleIcon className="mr-1 h-4 w-4" />
+                <AppleIcon className="mr-2 h-5 w-5" />
                 App Store
               </a>
               <a 
                 href="https://play.google.com"
                 target="_blank"
-                className="flex items-center justify-center bg-white text-primary px-4 py-0.5 rounded-full font-medium hover:shadow-lg"
+                className="flex items-center justify-center bg-white text-primary px-6 py-3 rounded-full font-medium hover:shadow-lg"
               >
-                <PlayIcon className="mr-1 h-4 w-4" />
+                <PlayIcon className="mr-2 h-5 w-5" />
                 Google Play
               </a>
             </div>
           </div>
-        </div>
-        
-        <div className="w-full" style={{ marginTop: "-15px" }}>
-          <div className="relative z-10">
+          
+          {/* Image positioned with absolute positioning */}
+          <div className="absolute top-[135px] left-0 right-0">
             <img 
               src={jumpHiPreview} 
               alt="Jump Hi - High is the limit" 
-              className="w-full max-w-5xl h-auto mx-auto"
+              className="w-full max-w-6xl h-auto mx-auto"
             />
           </div>
         </div>
