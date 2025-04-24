@@ -18,10 +18,10 @@ export default function AppPreview() {
   ];
 
   return (
-    <section id="training" className="py-20 bg-gradient-to-b from-[#0d1338] to-[#070B34]">
+    <section id="training" className="pt-10 pb-20 bg-gradient-to-b from-[#0d1338] to-[#070B34]">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
+        <div className="text-center mb-10">
+          <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4">
             Complete Training System In Your Pocket
           </h2>
         </div>

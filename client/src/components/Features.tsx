@@ -60,7 +60,7 @@ function FeatureCard({ feature, index }: { feature: typeof features[0], index: n
 
 export default function Features() {
   return (
-    <section id="features" className="pt-12 pb-20 -mt-40 relative z-10 bg-gradient-to-b from-[#070B34] to-[#0d1338]">
+    <section id="features" className="pt-12 pb-10 -mt-40 relative z-10 bg-gradient-to-b from-[#070B34] to-[#0d1338]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 relative">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4 relative z-20 text-white">Why Hoopers Choose JumpHi</h2>
