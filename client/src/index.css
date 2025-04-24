@@ -7,8 +7,8 @@
 :root {
   --background: 0 0% 0%;                    /* Pure black background */
   --foreground: 0 0% 98%;                   /* Light text for dark mode */
-  --muted: 0 0% 15%;                        /* Dark grey */
-  --muted-foreground: 0 0% 65%;             /* Light grey text */
+  --muted: 220 70% 15%;                     /* Dark blue-ish grey from court */
+  --muted-foreground: 0 0% 75%;             /* Light grey text */
   --popover: 0 0% 3%;                       /* Very dark grey, almost black */
   --popover-foreground: 0 0% 98%;
   --card: 0 0% 5%;                          /* Very dark grey */
@@ -17,14 +17,14 @@
   --input: 0 0% 15%;
   --primary: 13 86% 61%;                    /* JumpHi Orange #F26E46 */
   --primary-foreground: 0 0% 100%;
-  --secondary: 0 0% 30%;                    /* Dark grey instead of blue */
+  --secondary: 210 100% 50%;                /* Vibrant blue from court background */
   --secondary-foreground: 0 0% 100%;
-  --accent: 13 70% 50%;                     /* Darker orange instead of green */
+  --accent: 270 70% 55%;                    /* Purple from lighting effects */
   --accent-foreground: 0 0% 100%;
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 60 9.1% 97.8%;
-  --ring: 0 0% 50%;
-  --light: 0 0% 10%;                        /* Dark grey background for sections */
+  --ring: 13 86% 61%;                       /* Match primary */
+  --light: 220 70% 15%;                     /* Dark blue-ish background for sections */
   --dark: 0 0% 0%;                          /* Pure black background for sections */
   --radius: 0.5rem;
   --sidebar-background: var(--secondary);

@@ -7,8 +7,8 @@ import jumpHiPreview from "../assets/Your paragraph text.png";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-black to-muted text-white pt-2 pb-0">
-      <div className="absolute inset-0 ball-pattern"></div>
+    <section className="relative overflow-hidden bg-gradient-to-br from-black via-[#070B34] to-[#1A2562] text-white pt-2 pb-0">
+      <div className="absolute inset-0 ball-pattern opacity-30"></div>
       <div className="container mx-auto px-4 z-10 relative">
         <div className="flex flex-col items-center">
           <div className="w-full text-center">
@@ -51,7 +51,7 @@ export default function Hero() {
       
       <div className="absolute bottom-0 left-0 right-0">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120">
-          <path fill="hsl(0 0% 10%)" fillOpacity="1" d="M0,96L80,85.3C160,75,320,53,480,53.3C640,53,800,75,960,80C1120,85,1280,75,1360,69.3L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
+          <path fill="#070B34" fillOpacity="1" d="M0,96L80,85.3C160,75,320,53,480,53.3C640,53,800,75,960,80C1120,85,1280,75,1360,69.3L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
         </svg>
       </div>
     </section>
