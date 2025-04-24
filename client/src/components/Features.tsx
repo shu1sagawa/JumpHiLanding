@@ -21,12 +21,12 @@ const features = [
     description: "Learn from pro trainers with step-by-step video instructions for all drills and exercises."
   },
   {
-    icon: <LineChart className="text-3xl text-primary h-8 w-8" />,
+    icon: <LineChart className="text-xl text-primary h-5 w-5" />,
     title: "Performance Tracking",
     description: "Track your progress, set new goals, and see your improvement over time with detailed analytics."
   },
   {
-    icon: <Users className="text-3xl text-secondary h-8 w-8" />,
+    icon: <Users className="text-xl text-secondary h-5 w-5" />,
     title: "Community Challenges",
     description: "Compete with friends and players worldwide in weekly challenges and leaderboards."
   },
