@@ -54,12 +54,9 @@ export default function AppPreview() {
           <div className="lg:w-1/2 order-1 lg:order-2 flex justify-center">
             <div className="relative">
               <div className="w-64 md:w-72 rounded-3xl shadow-xl border-8 border-accent/30 h-[450px] bg-gray-800 flex items-center justify-center overflow-hidden">
-                <video 
-                  src="/videos/app-preview.mov"
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
+                <img 
+                  src="/images/basketball-training.gif"
+                  alt="Basketball Training Demo" 
                   className="w-full h-full object-cover"
                 />
               </div>
