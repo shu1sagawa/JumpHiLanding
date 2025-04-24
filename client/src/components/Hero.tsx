@@ -63,10 +63,7 @@ export default function Hero() {
                 </div>
               </div>
               <div className="ml-4">
-                <div className="flex items-center">
-                  <p className="text-sm font-medium">Highly rated app</p>
-                </div>
-                <p className="text-sm text-gray-200">From thousands of users</p>
+                <p className="text-sm text-gray-200">Join thousands of players</p>
               </div>
             </div>
           </motion.div>
