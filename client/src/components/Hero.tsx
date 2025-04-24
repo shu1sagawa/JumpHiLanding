@@ -44,7 +44,7 @@ export default function Hero() {
           <img 
             src={jumpHiPreview} 
             alt="Jump Hi - High is the limit" 
-            className="w-full max-w-5xl h-auto -mt-40 mb-0"
+            className="w-full max-w-5xl h-auto -mt-40 mb-0 md:max-h-[400px] object-contain"
           />
         </div>
       </div>
