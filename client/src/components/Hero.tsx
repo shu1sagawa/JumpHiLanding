@@ -3,28 +3,28 @@ import {
   AppleIcon, 
   PlayIcon
 } from "lucide-react";
-import jumpHiPreview from "../assets/jumphi-preview.png";
+import jumpHiPreview from "@assets/Your paragraph text.png";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-black to-muted text-white py-20 md:py-28">
+    <section className="relative overflow-hidden bg-gradient-to-br from-black to-muted text-white py-10 md:py-20">
       <div className="absolute inset-0 ball-pattern"></div>
       <div className="container mx-auto px-4 z-10 relative">
-        <div className="flex flex-col md:flex-row items-center">
+        <div className="flex flex-col items-center">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="w-full lg:w-1/2"
+            className="w-full lg:w-3/4 text-center"
           >
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight mb-4">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight mb-2">
               Level Up Your <span className="text-primary">Basketball</span> Game
             </h1>
-            <p className="text-lg md:text-xl mb-4 text-gray-100 max-w-md">
+            <p className="text-lg md:text-xl mb-3 text-gray-100 max-w-lg mx-auto">
               Professional training programs, drills, and tracking tools in your pocket. Elevate your skills with JumpHi.
             </p>
             
-            <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mb-1">
+            <div className="flex flex-row justify-center space-x-4 mb-3">
               <motion.a 
                 href="https://apps.apple.com" 
                 target="_blank"
@@ -46,24 +46,22 @@ export default function Hero() {
                 Google Play
               </motion.a>
             </div>
+          </motion.div>
 
-            <div className="w-full md:max-w-xl">
-              <motion.div 
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.8 }}
-                className="relative z-10 rounded-xl overflow-hidden shadow-2xl"
-              >
-                <img 
-                  src={jumpHiPreview} 
-                  alt="Jump Hi - High is the limit" 
-                  className="w-full h-auto"
-                />
-              </motion.div>
+          <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            className="w-full mt-1"
+          >
+            <div className="relative z-10 overflow-hidden rounded-lg shadow-2xl">
+              <img 
+                src={jumpHiPreview} 
+                alt="Jump Hi - High is the limit" 
+                className="w-full max-w-4xl h-auto mx-auto"
+              />
             </div>
           </motion.div>
-          
-
         </div>
       </div>
       
