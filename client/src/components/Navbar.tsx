@@ -41,9 +41,9 @@ export default function Navbar() {
 
   return (
     <header className={`sticky top-0 z-50 bg-dark ${scrolled ? 'shadow-md' : ''} transition-shadow`}>
-      <div className="container mx-auto px-4 py-2 flex items-center justify-between">
+      <div className="container mx-auto px-4 py-6 flex items-center justify-between">
         <Link href="/" className="flex items-center">
-          <img src={jumphiLogo} alt="JumpHi Logo" className="h-20 md:h-24" />
+          <img src={jumphiLogo} alt="JumpHi Logo" className="h-60 md:h-72" />
         </Link>
         
         <nav className="hidden md:flex space-x-8">
