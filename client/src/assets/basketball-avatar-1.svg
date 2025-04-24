@@ -1,0 +1,23 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Face circle -->
+  <circle cx="50" cy="42" r="28" fill="#f5c397"/>
+  
+  <!-- Hair -->
+  <path d="M28 30C28 30 30 15 50 15C70 15 72 30 72 30L70 40L66 30L60 35L50 28L40 35L34 30L30 40L28 30Z" fill="#3a3a3a"/>
+  
+  <!-- Eyes -->
+  <circle cx="40" cy="38" r="3" fill="#333"/>
+  <circle cx="60" cy="38" r="3" fill="#333"/>
+  
+  <!-- Mouth -->
+  <path d="M42 50C42 50 46 55 58 50" stroke="#333" stroke-width="2" fill="none"/>
+  
+  <!-- Basketball jersey -->
+  <path d="M25 70V100H75V70C75 70 70 80 50 80C30 80 25 70 25 70Z" fill="#F26E46"/>
+  <path d="M35 75L35 95" stroke="#fff" stroke-width="2"/>
+  <path d="M65 75L65 95" stroke="#fff" stroke-width="2"/>
+  <path d="M40 85H60" stroke="#fff" stroke-width="2"/>
+  
+  <!-- Number -->
+  <text x="50" y="90" font-family="Arial" font-size="20" fill="white" text-anchor="middle">23</text>
+</svg>
