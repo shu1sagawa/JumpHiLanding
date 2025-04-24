@@ -66,7 +66,7 @@ export default function AppPreview() {
                 transition={{ duration: 0.4, delay: 0.8 }}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="inline-block mt-8 bg-primary hover:bg-opacity-90 text-white px-8 py-4 rounded-full font-medium transition-all hover:shadow-lg"
+                className="inline-block mt-8 bg-gradient-to-r from-secondary to-accent hover:bg-opacity-90 text-white px-8 py-4 rounded-full font-medium transition-all hover:shadow-lg"
               >
                 Start Training Now
               </motion.a>
@@ -80,7 +80,7 @@ export default function AppPreview() {
             className="lg:w-1/2 order-1 lg:order-2 flex justify-center"
           >
             <div className="relative">
-              <div className="w-64 md:w-72 rounded-3xl shadow-xl border-8 border-primary/30 h-[450px] bg-gray-800 flex items-center justify-center">
+              <div className="w-64 md:w-72 rounded-3xl shadow-xl border-8 border-accent/30 h-[450px] bg-gray-800 flex items-center justify-center">
                 <span className="text-gray-400">App Screenshot</span>
               </div>
               
