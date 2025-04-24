@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import { 
   AppleIcon, 
-  PlayIcon, 
-  TrendingUpIcon
+  PlayIcon
 } from "lucide-react";
+import jumpHiPreview from "../assets/jumphi-preview.png";
 
 export default function Hero() {
   return (
@@ -56,24 +56,18 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="md:w-1/2 mt-12 md:mt-0 flex justify-center"
           >
-            <div className="relative w-64 md:w-80">
-              <div className="absolute -top-4 -left-4 w-full h-full bg-primary rounded-3xl transform rotate-6"></div>
-              <div className="relative z-10 rounded-3xl shadow-xl border-4 border-primary/30 h-[500px] md:h-[600px] bg-gray-800 flex items-center justify-center">
-                <span className="text-gray-400">App Preview</span>
-              </div>
+            <div className="relative w-full md:w-auto max-w-md">
               <motion.div 
-                initial={{ y: 10, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.8, duration: 0.5 }}
-                className="absolute -bottom-6 -right-6 bg-white p-4 rounded-xl shadow-lg transform rotate-3 z-20"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.8 }}
+                className="relative z-10 rounded-xl overflow-hidden shadow-2xl"
               >
-                <div className="flex items-center">
-                  <TrendingUpIcon className="text-primary h-5 w-5" />
-                  <div className="ml-3">
-                    <p className="text-dark font-medium text-sm">Progress</p>
-                    <p className="text-primary font-bold">+27% this month</p>
-                  </div>
-                </div>
+                <img 
+                  src={jumpHiPreview} 
+                  alt="Jump Hi - High is the limit" 
+                  className="w-full h-auto"
+                />
               </motion.div>
             </div>
           </motion.div>
