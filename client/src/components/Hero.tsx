@@ -12,8 +12,15 @@ export default function Hero() {
         <div className="flex flex-col items-center">
           <div className="w-full text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-thin italic leading-tight mb-2">
-              <div><span className="font-bold">Level</span><span>Up</span> Your</div>
-              <div><span className="text-primary font-bold">Basketball</span> Game</div>
+              <div className="mb-1">
+                <span className="font-bold bg-gradient-to-r from-[#3b82f6] to-[#DC60EC] text-transparent bg-clip-text">Level</span>
+                <span className="text-[#F26E46]">Up</span> 
+                <span className="text-white">Your</span>
+              </div>
+              <div>
+                <span className="text-primary font-bold">Basketball</span> 
+                <span className="bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-transparent bg-clip-text">Game</span>
+              </div>
             </h1>
             <p className="text-lg md:text-xl mb-6 text-gray-100 max-w-lg mx-auto">
               Professional training programs, drills, and tracking tools in your pocket. Elevate your skills with JumpHi.
