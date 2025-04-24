@@ -1,6 +1,7 @@
 import { Volleyball, InstagramIcon, TwitterIcon, FacebookIcon, YoutubeIcon, MailIcon, PhoneIcon, Send } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import jumphiLogo from "../assets/jumphi-logo.png";
 
 export default function Footer() {
   return (
@@ -9,8 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <a href="#" className="flex items-center">
-              <span className="text-white font-heading font-bold text-2xl">JumpHi</span>
-              <Volleyball className="ml-1 text-primary h-6 w-6" />
+              <img src={jumphiLogo} alt="JumpHi Logo" className="h-12" />
             </a>
             <p className="mt-4">
               The ultimate basketball training app designed to help players of all levels improve their skills and elevate their game.
