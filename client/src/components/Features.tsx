@@ -11,12 +11,12 @@ import {
 
 const features = [
   {
-    icon: <Dumbbell className="text-2xl text-primary h-6 w-6" />,
+    icon: <Dumbbell className="text-2xl text-secondary h-6 w-6" />,
     title: "Personalized Workouts",
     description: "Custom training plans based on your position, skill level, and specific goals."
   },
   {
-    icon: <Video className="text-2xl text-primary h-6 w-6" />,
+    icon: <Video className="text-2xl text-accent h-6 w-6" />,
     title: "HD Video Tutorials",
     description: "Learn from pro trainers with step-by-step video instructions for all drills and exercises."
   },
@@ -26,12 +26,12 @@ const features = [
     description: "Track your progress, set new goals, and see your improvement over time with detailed analytics."
   },
   {
-    icon: <Users className="text-2xl text-primary h-6 w-6" />,
+    icon: <Users className="text-2xl text-secondary h-6 w-6" />,
     title: "Community Challenges",
     description: "Compete with friends and players worldwide in weekly challenges and leaderboards."
   },
   {
-    icon: <Calendar className="text-2xl text-primary h-6 w-6" />,
+    icon: <Calendar className="text-2xl text-accent h-6 w-6" />,
     title: "Structured Programs",
     description: "Follow 4-12 week programs designed to improve specific skills like shooting, dribbling, or vertical jump."
   },
@@ -66,9 +66,9 @@ function FeatureCard({ feature, index }: { feature: typeof features[0], index: n
           transition: { duration: 0.5, delay: index * 0.1 } 
         }
       }}
-      className="bg-muted rounded-xl p-6"
+      className="bg-gradient-to-br from-[#0d1338] to-[#1c2b68] rounded-xl p-6 border border-indigo-500/10 shadow-lg"
     >
-      <div className="bg-primary bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+      <div className="bg-gradient-to-br from-primary/20 to-secondary/20 w-16 h-16 rounded-full flex items-center justify-center mb-6">
         {feature.icon}
       </div>
       <h3 className="text-xl font-heading font-bold mb-3 text-white">{feature.title}</h3>
@@ -91,7 +91,7 @@ export default function Features() {
   }, [isInView, controls]);
 
   return (
-    <section id="features" className="py-20 bg-light">
+    <section id="features" className="py-20 bg-gradient-to-b from-[#070B34] to-[#0d1338]">
       <div className="container mx-auto px-4">
         <motion.div 
           ref={ref}

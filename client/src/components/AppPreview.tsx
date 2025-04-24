@@ -22,7 +22,7 @@ export default function AppPreview() {
   ];
 
   return (
-    <section id="training" className="py-20 bg-dark">
+    <section id="training" className="py-20 bg-gradient-to-b from-[#0d1338] to-[#070B34]">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center">
           <motion.div 

@@ -12,7 +12,7 @@ export default function DownloadCta() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="download" className="py-20 bg-gradient-to-r from-primary to-orange-600 text-white">
+    <section id="download" className="py-20 bg-gradient-to-r from-accent to-secondary text-white">
       <div className="container mx-auto px-4 text-center">
         <motion.div 
           ref={ref}
@@ -32,7 +32,7 @@ export default function DownloadCta() {
               target="_blank"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="flex items-center bg-white text-dark px-6 py-3 rounded-xl transition-all hover:shadow-lg w-64"
+              className="flex items-center bg-gradient-to-r from-secondary to-accent text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg w-64 border border-white/30"
             >
               <AppleIcon className="h-8 w-8 mr-4" />
               <div className="text-left">
@@ -46,7 +46,7 @@ export default function DownloadCta() {
               target="_blank"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="flex items-center bg-white text-dark px-6 py-3 rounded-xl transition-all hover:shadow-lg w-64"
+              className="flex items-center bg-gradient-to-r from-primary to-[#ff8c6e] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg w-64 border border-white/30"
             >
               <PlayIcon className="h-8 w-8 mr-4" />
               <div className="text-left">
