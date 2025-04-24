@@ -14,11 +14,11 @@ export default function Hero() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-thin italic leading-tight mb-2">
               <div className="mb-1">
                 <span className="font-bold bg-gradient-to-r from-[#3b82f6] to-[#DC60EC] text-transparent bg-clip-text">Level</span>
-                <span className="text-[#F26E46]">Up</span> 
+                <span className="bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-transparent bg-clip-text">Up</span> 
                 <span className="text-white">Your</span>
               </div>
               <div>
-                <span className="text-primary font-bold">Basketball</span> 
+                <span className="font-bold bg-gradient-to-r from-[#3b82f6] to-[#DC60EC] text-transparent bg-clip-text">Basketball</span> 
                 <span className="bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-transparent bg-clip-text">Game</span>
               </div>
             </h1>
