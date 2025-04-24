@@ -53,8 +53,12 @@ export default function AppPreview() {
           
           <div className="lg:w-1/2 order-1 lg:order-2 flex justify-center">
             <div className="relative">
-              <div className="w-64 md:w-72 rounded-3xl shadow-xl border-8 border-accent/30 h-[450px] bg-gray-800 flex items-center justify-center">
-                <span className="text-gray-400">App Screenshot</span>
+              <div className="w-64 md:w-72 rounded-3xl shadow-xl border-8 border-accent/30 h-[450px] bg-gray-800 flex items-center justify-center overflow-hidden">
+                <img 
+                  src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjZuZTVsZHV5cHVicmpxZ3BwaGViM3ZiMWJzY25kNnRwNWpqbmRnMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MZzJPCPMwJcJYCN0lm/giphy.gif"
+                  alt="Basketball Training App Demo" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               
               <div className="absolute -top-6 -right-6 bg-white p-3 rounded-xl shadow-lg z-10">
