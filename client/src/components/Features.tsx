@@ -11,32 +11,32 @@ import BasketballCourt from "./icons/BasketballCourt";
 
 const features = [
   {
-    icon: <BasketballCourt className="text-3xl text-secondary h-16 w-16" />,
+    icon: <BasketballCourt className="text-3xl text-secondary h-12 w-12" />,
     title: "Personalized Workouts",
     description: "Custom training plans based on your position, skill level, and specific goals."
   },
   {
-    icon: <Video className="text-3xl text-accent h-8 w-8" />,
+    icon: <Video className="text-3xl text-accent h-12 w-12" />,
     title: "HD Video Tutorials",
     description: "Learn from pro trainers with step-by-step video instructions for all drills and exercises."
   },
   {
-    icon: <LineChart className="text-3xl text-primary h-8 w-8" />,
+    icon: <LineChart className="text-3xl text-primary h-12 w-12" />,
     title: "Performance Tracking",
     description: "Track your progress, set new goals, and see your improvement over time with detailed analytics."
   },
   {
-    icon: <Users className="text-3xl text-secondary h-8 w-8" />,
+    icon: <Users className="text-3xl text-secondary h-12 w-12" />,
     title: "Community Challenges",
     description: "Compete with friends and players worldwide in weekly challenges and leaderboards."
   },
   {
-    icon: <Calendar className="text-3xl text-accent h-8 w-8" />,
+    icon: <Calendar className="text-3xl text-accent h-12 w-12" />,
     title: "Structured Programs",
     description: "Follow 4-12 week programs designed to improve specific skills like shooting, dribbling, or vertical jump."
   },
   {
-    icon: <Medal className="text-3xl text-primary h-8 w-8" />,
+    icon: <Medal className="text-3xl text-primary h-12 w-12" />,
     title: "Pro Feedback",
     description: "Upload your videos for analysis and get professional feedback on your technique."
   }
