@@ -68,13 +68,17 @@ function FeatureCard({ feature, index }: { feature: typeof features[0], index: n
       }}
       className="bg-gradient-to-br from-[#0d1338] to-[#1c2b68] rounded-xl p-8 border border-indigo-500/20 shadow-xl hover:shadow-indigo-500/10 hover:scale-105 transition-all duration-300"
     >
-      <div className="bg-gradient-to-r from-[#DC60EC]/30 to-[#3b82f6]/30 w-20 h-20 rounded-2xl flex items-center justify-center mb-6 shadow-inner">
-        {feature.icon}
+      <div className="flex gap-4 items-start">
+        <div className="bg-gradient-to-r from-[#DC60EC]/30 to-[#3b82f6]/30 w-20 h-20 rounded-2xl flex items-center justify-center shrink-0 shadow-inner">
+          {feature.icon}
+        </div>
+        <div>
+          <h3 className="text-2xl font-heading font-bold mb-3 text-white">{feature.title}</h3>
+          <p className="text-gray-300 text-lg">
+            {feature.description}
+          </p>
+        </div>
       </div>
-      <h3 className="text-2xl font-heading font-bold mb-3 text-white">{feature.title}</h3>
-      <p className="text-gray-300 text-lg">
-        {feature.description}
-      </p>
     </motion.div>
   );
 }
