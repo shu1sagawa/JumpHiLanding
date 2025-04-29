@@ -1,4 +1,5 @@
-import { InstagramIcon, TwitterIcon, FacebookIcon, YoutubeIcon } from "lucide-react";
+import { InstagramIcon, FacebookIcon, YoutubeIcon } from "lucide-react";
+import { FaTiktok } from "react-icons/fa";
 import jumphiLogo from "../assets/jumphi-logo.png";
 
 export default function Footer() {
@@ -18,7 +19,7 @@ export default function Footer() {
                 <InstagramIcon className="h-5 w-5" />
               </a>
               <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                <TwitterIcon className="h-5 w-5" />
+                <FaTiktok className="h-5 w-5" />
               </a>
               <a href="#" className="text-gray-300 hover:text-white transition-colors">
                 <FacebookIcon className="h-5 w-5" />
