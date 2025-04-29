@@ -19,7 +19,7 @@ export default function DownloadCta() {
             <button 
               type="button"
               onClick={() => window.open("https://apps.apple.com/us/app/jumphi-basketball-training/id1545204150", "_blank")}
-              className="flex items-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg hover:scale-105 border border-white/20 cursor-pointer"
+              className="flex items-center bg-gradient-to-r from-[#F26E46] to-[#DC60EC] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg hover:scale-105 border border-white/20 cursor-pointer"
             >
               <AppleIcon className="h-8 w-8 mr-4" />
               <div className="text-left">
@@ -31,7 +31,7 @@ export default function DownloadCta() {
             <button 
               type="button"
               onClick={() => window.open("https://play.google.com/store/apps/details?id=com.jumphiapp.application", "_blank")}
-              className="flex items-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg hover:scale-105 border border-white/20 cursor-pointer"
+              className="flex items-center bg-gradient-to-r from-[#F26E46] to-[#3D4CBF] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg hover:scale-105 border border-white/20 cursor-pointer"
             >
               <PlayIcon className="h-8 w-8 mr-4" />
               <div className="text-left">
@@ -44,7 +44,7 @@ export default function DownloadCta() {
           <div className="flex flex-wrap justify-center items-center gap-8">
             <div className="flex items-center">
               <Users className="h-6 w-6 mr-2" />
-              <span className="font-medium">100,000+ Users</span>
+              <span className="font-medium">10,000+ Users</span>
             </div>
             <div className="flex items-center">
               <svg 
