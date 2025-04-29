@@ -25,24 +25,22 @@ export default function Hero() {
             
             {/* Buttons */}
             <div className="flex flex-row justify-center space-x-4 mt-6 mb-14">
-              <a 
-                href="https://apps.apple.com/us/app/jumphi-basketball-training/id1545204150" 
-                target="_blank"
-                rel="noopener noreferrer"
+              <button 
+                type="button"
+                onClick={() => window.open("https://apps.apple.com/us/app/jumphi-basketball-training/id1545204150", "_blank")}
                 className="flex items-center justify-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-full font-medium hover:shadow-lg transition-transform hover:scale-105"
               >
                 <AppleIcon className="mr-2 h-5 w-5" />
                 App Store
-              </a>
-              <a 
-                href="https://play.google.com/store/apps/details?id=com.jumphiapp.application" 
-                target="_blank"
-                rel="noopener noreferrer"
+              </button>
+              <button 
+                type="button"
+                onClick={() => window.open("https://play.google.com/store/apps/details?id=com.jumphiapp.application", "_blank")}
                 className="flex items-center justify-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-full font-medium hover:shadow-lg transition-transform hover:scale-105"
               >
                 <PlayIcon className="mr-2 h-5 w-5" />
                 Google Play
-              </a>
+              </button>
             </div>
           </div>
           

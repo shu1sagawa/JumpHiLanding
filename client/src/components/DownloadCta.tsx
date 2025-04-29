@@ -16,10 +16,9 @@ export default function DownloadCta() {
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 mb-10">
-            <a 
-              href="https://apps.apple.com/us/app/jumphi-basketball-training/id1545204150" 
-              target="_blank"
-              rel="noopener noreferrer"
+            <button 
+              type="button"
+              onClick={() => window.open("https://apps.apple.com/us/app/jumphi-basketball-training/id1545204150", "_blank")}
               className="flex items-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg hover:scale-105 border border-white/20"
             >
               <AppleIcon className="h-8 w-8 mr-4" />
@@ -27,12 +26,11 @@ export default function DownloadCta() {
                 <p className="text-xs">Download on the</p>
                 <p className="text-xl font-heading font-bold">App Store</p>
               </div>
-            </a>
+            </button>
             
-            <a 
-              href="https://play.google.com/store/apps/details?id=com.jumphiapp.application" 
-              target="_blank"
-              rel="noopener noreferrer"
+            <button 
+              type="button"
+              onClick={() => window.open("https://play.google.com/store/apps/details?id=com.jumphiapp.application", "_blank")}
               className="flex items-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg hover:scale-105 border border-white/20"
             >
               <PlayIcon className="h-8 w-8 mr-4" />
@@ -40,7 +38,7 @@ export default function DownloadCta() {
                 <p className="text-xs">Get it on</p>
                 <p className="text-xl font-heading font-bold">Google Play</p>
               </div>
-            </a>
+            </button>
           </div>
           
           <div className="flex flex-wrap justify-center items-center gap-8">
