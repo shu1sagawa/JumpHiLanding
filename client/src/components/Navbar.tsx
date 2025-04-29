@@ -54,12 +54,24 @@ export default function Navbar() {
         </nav>
         
         <div className="flex items-center space-x-4">
-          <a 
-            href="#download" 
-            className="hidden md:block bg-primary hover:bg-opacity-90 text-white px-2 py-0.5 rounded-full text-[8px] font-medium transition-all transform hover:scale-105"
-          >
-            Download
-          </a>
+          <div className="hidden md:flex items-center space-x-2">
+            <a 
+              href="https://apps.apple.com/us/app/jumphi-basketball-training/id1545204150" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-[#F26E46] to-[#DC60EC] hover:bg-opacity-90 text-white px-2 py-0.5 rounded-full text-[8px] font-medium transition-all transform hover:scale-105"
+            >
+              App Store
+            </a>
+            <a 
+              href="https://play.google.com/store/apps/details?id=com.jumphiapp.application" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-[#F26E46] to-[#DC60EC] hover:bg-opacity-90 text-white px-2 py-0.5 rounded-full text-[8px] font-medium transition-all transform hover:scale-105"
+            >
+              Google Play
+            </a>
+          </div>
           <button 
             className="md:hidden text-2xl text-foreground"
             onClick={toggleMobileMenu}
@@ -86,13 +98,26 @@ export default function Navbar() {
               <MobileNavLink href="#training">Training</MobileNavLink>
               <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
               <MobileNavLink href="#faq">FAQ</MobileNavLink>
-              <a 
-                href="#download" 
-                className="bg-primary text-white py-3 mt-2 rounded-full font-medium text-center"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Download Now
-              </a>
+              <div className="flex flex-col space-y-2 mt-2">
+                <a 
+                  href="https://apps.apple.com/us/app/jumphi-basketball-training/id1545204150" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gradient-to-r from-[#F26E46] to-[#DC60EC] text-white py-2 rounded-full font-medium text-center"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  App Store
+                </a>
+                <a 
+                  href="https://play.google.com/store/apps/details?id=com.jumphiapp.application" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gradient-to-r from-[#F26E46] to-[#DC60EC] text-white py-2 rounded-full font-medium text-center"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Google Play
+                </a>
+              </div>
             </div>
           </motion.nav>
         )}
