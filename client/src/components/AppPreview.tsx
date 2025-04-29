@@ -11,8 +11,8 @@ export default function AppPreview() {
       description: "Receive daily motivational quotes to keep you inspired."
     },
     {
-      title: "Offline Access",
-      description: "Download workouts and videos for practice sessions without internet connection."
+      title: "Daily Progress",
+      description: "Track your improvement with daily logs and performance insights to see your growth."
     }
   ];
 
