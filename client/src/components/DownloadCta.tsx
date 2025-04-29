@@ -19,6 +19,7 @@ export default function DownloadCta() {
             <a 
               href="https://apps.apple.com/us/app/jumphi-basketball-training/id1545204150" 
               target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg hover:scale-105 border border-white/20"
             >
               <AppleIcon className="h-8 w-8 mr-4" />
@@ -29,8 +30,9 @@ export default function DownloadCta() {
             </a>
             
             <a 
-              href="https://play.google.com/store/apps/details?id=com.jumphiapp.application&amp;pcampaignid=web_share" 
+              href="https://play.google.com/store/apps/details?id=com.jumphiapp.application" 
               target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg hover:scale-105 border border-white/20"
             >
               <PlayIcon className="h-8 w-8 mr-4" />

@@ -30,23 +30,15 @@ export default function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-full font-medium hover:shadow-lg transition-transform hover:scale-105"
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.open("https://apps.apple.com/us/app/jumphi-basketball-training/id1545204150", "_blank");
-                }}
               >
                 <AppleIcon className="mr-2 h-5 w-5" />
                 App Store
               </a>
               <a 
-                href="https://play.google.com/store/apps/details?id=com.jumphiapp.application&pcampaignid=web_share"
+                href="https://play.google.com/store/apps/details?id=com.jumphiapp.application" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-full font-medium hover:shadow-lg transition-transform hover:scale-105"
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.open("https://play.google.com/store/apps/details?id=com.jumphiapp.application&pcampaignid=web_share", "_blank");
-                }}
               >
                 <PlayIcon className="mr-2 h-5 w-5" />
                 Google Play
