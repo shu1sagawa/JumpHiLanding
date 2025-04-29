@@ -19,7 +19,7 @@ export default function DownloadCta() {
             <button 
               type="button"
               onClick={() => window.open("https://apps.apple.com/us/app/jumphi-basketball-training/id1545204150", "_blank")}
-              className="flex items-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg hover:scale-105 border border-white/20"
+              className="flex items-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg hover:scale-105 border border-white/20 cursor-pointer"
             >
               <AppleIcon className="h-8 w-8 mr-4" />
               <div className="text-left">
@@ -31,7 +31,7 @@ export default function DownloadCta() {
             <button 
               type="button"
               onClick={() => window.open("https://play.google.com/store/apps/details?id=com.jumphiapp.application", "_blank")}
-              className="flex items-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg hover:scale-105 border border-white/20"
+              className="flex items-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg hover:scale-105 border border-white/20 cursor-pointer"
             >
               <PlayIcon className="h-8 w-8 mr-4" />
               <div className="text-left">
