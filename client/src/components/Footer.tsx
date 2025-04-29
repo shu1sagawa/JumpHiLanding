@@ -1,4 +1,4 @@
-import { InstagramIcon, FacebookIcon, YoutubeIcon } from "lucide-react";
+import { InstagramIcon, FacebookIcon } from "lucide-react";
 import { FaTiktok } from "react-icons/fa";
 import jumphiLogo from "../assets/jumphi-logo.png";
 
@@ -24,9 +24,7 @@ export default function Footer() {
               <a href="https://www.facebook.com/jump.hi.90?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
                 <FacebookIcon className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                <YoutubeIcon className="h-5 w-5" />
-              </a>
+
             </div>
           </div>
           
