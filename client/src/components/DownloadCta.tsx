@@ -17,7 +17,7 @@ export default function DownloadCta() {
           
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 mb-10">
             <a 
-              href="https://apps.apple.com" 
+              href="https://apps.apple.com/us/app/jumphi-basketball-training/id1545204150" 
               target="_blank"
               className="flex items-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg hover:scale-105 border border-white/20"
             >

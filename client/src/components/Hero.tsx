@@ -26,7 +26,7 @@ export default function Hero() {
             {/* Buttons */}
             <div className="flex flex-row justify-center space-x-4 mt-6 mb-14">
               <a 
-                href="https://apps.apple.com" 
+                href="https://apps.apple.com/us/app/jumphi-basketball-training/id1545204150" 
                 target="_blank"
                 className="flex items-center justify-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-full font-medium hover:shadow-lg transition-transform hover:scale-105"
               >
