@@ -55,22 +55,18 @@ export default function Navbar() {
         
         <div className="flex items-center space-x-4">
           <div className="hidden md:flex items-center space-x-2">
-            <a 
-              href="https://apps.apple.com/us/app/jumphi-basketball-training/id1545204150" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-gradient-to-r from-[#F26E46] to-[#DC60EC] hover:bg-opacity-90 text-white px-2 py-0.5 rounded-full text-[8px] font-medium transition-all transform hover:scale-105"
+            <button 
+              onClick={() => window.open("https://apps.apple.com/us/app/jumphi-basketball-training/id1545204150", "_blank")}
+              className="bg-gradient-to-r from-[#F26E46] to-[#DC60EC] hover:bg-opacity-90 text-white px-2 py-0.5 rounded-full text-[8px] font-medium transition-all transform hover:scale-105 cursor-pointer"
             >
               App Store
-            </a>
-            <a 
-              href="https://play.google.com/store/apps/details?id=com.jumphiapp.application" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-gradient-to-r from-[#F26E46] to-[#DC60EC] hover:bg-opacity-90 text-white px-2 py-0.5 rounded-full text-[8px] font-medium transition-all transform hover:scale-105"
+            </button>
+            <button 
+              onClick={() => window.open("https://play.google.com/store/apps/details?id=com.jumphiapp.application", "_blank")}
+              className="bg-gradient-to-r from-[#F26E46] to-[#DC60EC] hover:bg-opacity-90 text-white px-2 py-0.5 rounded-full text-[8px] font-medium transition-all transform hover:scale-105 cursor-pointer"
             >
               Google Play
-            </a>
+            </button>
           </div>
           <button 
             className="md:hidden text-2xl text-foreground"
@@ -99,24 +95,24 @@ export default function Navbar() {
               <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
               <MobileNavLink href="#faq">FAQ</MobileNavLink>
               <div className="flex flex-col space-y-2 mt-2">
-                <a 
-                  href="https://apps.apple.com/us/app/jumphi-basketball-training/id1545204150" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-gradient-to-r from-[#F26E46] to-[#DC60EC] text-white py-2 rounded-full font-medium text-center"
-                  onClick={() => setMobileMenuOpen(false)}
+                <button 
+                  onClick={() => {
+                    window.open("https://apps.apple.com/us/app/jumphi-basketball-training/id1545204150", "_blank");
+                    setMobileMenuOpen(false);
+                  }}
+                  className="bg-gradient-to-r from-[#F26E46] to-[#DC60EC] text-white py-2 rounded-full font-medium text-center cursor-pointer"
                 >
                   App Store
-                </a>
-                <a 
-                  href="https://play.google.com/store/apps/details?id=com.jumphiapp.application" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-gradient-to-r from-[#F26E46] to-[#DC60EC] text-white py-2 rounded-full font-medium text-center"
-                  onClick={() => setMobileMenuOpen(false)}
+                </button>
+                <button 
+                  onClick={() => {
+                    window.open("https://play.google.com/store/apps/details?id=com.jumphiapp.application", "_blank");
+                    setMobileMenuOpen(false);
+                  }}
+                  className="bg-gradient-to-r from-[#F26E46] to-[#DC60EC] text-white py-2 rounded-full font-medium text-center cursor-pointer"
                 >
                   Google Play
-                </a>
+                </button>
               </div>
             </div>
           </motion.nav>
