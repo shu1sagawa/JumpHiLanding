@@ -18,7 +18,7 @@ export default function Footer() {
               <a href="https://www.instagram.com/jumphi_?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
                 <InstagramIcon className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a href="https://www.tiktok.com/@jumphi_?_t=ZP-8vwW4rVEEGc&_r=1" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
                 <FaTiktok className="h-5 w-5" />
               </a>
               <a href="https://www.facebook.com/jump.hi.90?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
