@@ -7,8 +7,8 @@ export default function AppPreview() {
       description: "Focus on shooting, dribbling, conditioning, agility, defense, or full training programs."
     },
     {
-      title: "On-Court Tracking",
-      description: "Set timers, count reps, and track your shooting percentages during practice sessions."
+      title: "Get Motivated",
+      description: "Stay inspired with achievement tracking and personalized goals for your basketball journey."
     },
     {
       title: "Offline Access",
