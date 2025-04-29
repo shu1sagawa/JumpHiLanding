@@ -34,7 +34,7 @@ export default function Hero() {
                 App Store
               </a>
               <a 
-                href="https://play.google.com"
+                href="https://play.google.com/store/apps/details?id=com.jumphiapp.application&amp;pcampaignid=web_share"
                 target="_blank"
                 className="flex items-center justify-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-full font-medium hover:shadow-lg transition-transform hover:scale-105"
               >

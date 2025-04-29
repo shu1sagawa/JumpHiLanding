@@ -29,7 +29,7 @@ export default function DownloadCta() {
             </a>
             
             <a 
-              href="https://play.google.com" 
+              href="https://play.google.com/store/apps/details?id=com.jumphiapp.application&amp;pcampaignid=web_share" 
               target="_blank"
               className="flex items-center bg-gradient-to-r from-[#DC60EC] to-[#3b82f6] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg hover:scale-105 border border-white/20"
             >
