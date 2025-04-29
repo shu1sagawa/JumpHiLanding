@@ -12,7 +12,7 @@ export default function AppPreview() {
     },
     {
       title: "Daily Progress",
-      description: "Track your improvement with daily logs and performance insights to see your growth."
+      description: "Track your daily activity and reach your goals."
     }
   ];
 
