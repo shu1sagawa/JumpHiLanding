@@ -17,10 +17,6 @@ const faqs = [
   {
     question: "How often are new workouts added?",
     answer: "We add new drills and workouts every month. Premium members get access to seasonal training programs and special workouts developed with professional trainers and athletes."
-  },
-  {
-    question: "Can coaches use JumpHi for team training?",
-    answer: "Yes! We offer team packages that allow coaches to assign workouts, track player progress, and analyze team performance. Contact us for special team pricing."
   }
 ];
 
