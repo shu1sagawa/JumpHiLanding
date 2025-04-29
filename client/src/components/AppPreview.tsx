@@ -8,7 +8,7 @@ export default function AppPreview() {
     },
     {
       title: "Get Motivated",
-      description: "Stay inspired with achievement tracking and personalized goals for your basketball journey."
+      description: "Receive daily motivational quotes to keep you inspired."
     },
     {
       title: "Offline Access",
