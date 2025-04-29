@@ -36,7 +36,7 @@ export default function Hero() {
               <button 
                 type="button"
                 onClick={() => window.open("https://play.google.com/store/apps/details?id=com.jumphiapp.application", "_blank")}
-                className="flex items-center justify-center bg-gradient-to-r from-[#F26E46] to-[#3D4CBF] text-white px-6 py-3 rounded-full font-medium hover:shadow-lg transition-transform hover:scale-105 cursor-pointer"
+                className="flex items-center justify-center bg-gradient-to-r from-[#F26E46] to-[#DC60EC] text-white px-6 py-3 rounded-full font-medium hover:shadow-lg transition-transform hover:scale-105 cursor-pointer"
               >
                 <PlayIcon className="mr-2 h-5 w-5" />
                 Google Play

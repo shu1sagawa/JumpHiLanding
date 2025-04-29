@@ -31,7 +31,7 @@ export default function DownloadCta() {
             <button 
               type="button"
               onClick={() => window.open("https://play.google.com/store/apps/details?id=com.jumphiapp.application", "_blank")}
-              className="flex items-center bg-gradient-to-r from-[#F26E46] to-[#3D4CBF] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg hover:scale-105 border border-white/20 cursor-pointer"
+              className="flex items-center bg-gradient-to-r from-[#F26E46] to-[#DC60EC] text-white px-6 py-3 rounded-xl transition-all hover:shadow-lg hover:scale-105 border border-white/20 cursor-pointer"
             >
               <PlayIcon className="h-8 w-8 mr-4" />
               <div className="text-left">
